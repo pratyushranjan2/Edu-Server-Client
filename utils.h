@@ -1,0 +1,27 @@
+#define ADD_TEACHER "ADD_TEACHER"
+#define DEL_TEACHER "DEL_TEACHER"
+#define ADD_COURSE "ADD_COURSE"
+#define DEL_COURSE "DEL_COURSE"
+
+#define CODE_ADD_TEACHER 1
+#define CODE_DEL_TEACHER 2
+#define CODE_ADD_COURSE 3
+#define CODE_DEL_COURSE 4
+#define CODE_INVALID -1
+
+#define COURSE_LEN 4
+#define TEACHER_LEN 4
+
+#define nCOURSES 100
+#define nTEACHERS 100
+
+#define WARNING_DUPLICATE -1
+#define SUCCESS 0
+
+#define ADD_SUCCESS_MSG "ADD SUCCESS"
+#define ADD_DUPLICATE_MSG "DPLCTS IGNORED"
+#define DEL_MSG "DEL SUCCESS"
+#define INVALID_ITR_MSG "INVALID"
+#define MAX_LIMIT_MSG "LIMIT REACHED"
+
+int get_itr_code(char *itr);
